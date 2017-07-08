@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: c093d2df8a4384040b089c2d37c8bbcb
+timeCreated: 1499516798
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_R
+    100004: fingers1_R
+    100006: fingers2_L
+    100008: fingers2_R
+    100010: fingers_L
+    100012: foot_L
+    100014: foot_R
+    100016: forearm_L
+    100018: forearm_R
+    100020: hand_L
+    100022: hand_R
+    100024: head
+    100026: hip_L
+    100028: hip_R
+    100030: joint10
+    100032: joint14
+    100034: joint18
+    100036: joint26
+    100038: joint33
+    100040: joint36
+    100042: leg_L
+    100044: leg_R
+    100046: pelvis
+    100048: //RootNode
+    100050: polySurface1
+    100052: root
+    100054: spine1
+    100056: spine2
+    100058: thumb1_L
+    100060: thumb1_R
+    100062: thumb2_L
+    100064: thumb2_R
+    400000: arm_L
+    400002: arm_R
+    400004: fingers1_R
+    400006: fingers2_L
+    400008: fingers2_R
+    400010: fingers_L
+    400012: foot_L
+    400014: foot_R
+    400016: forearm_L
+    400018: forearm_R
+    400020: hand_L
+    400022: hand_R
+    400024: head
+    400026: hip_L
+    400028: hip_R
+    400030: joint10
+    400032: joint14
+    400034: joint18
+    400036: joint26
+    400038: joint33
+    400040: joint36
+    400042: leg_L
+    400044: leg_R
+    400046: pelvis
+    400048: //RootNode
+    400050: polySurface1
+    400052: root
+    400054: spine1
+    400056: spine2
+    400058: thumb1_L
+    400060: thumb1_R
+    400062: thumb2_L
+    400064: thumb2_R
+    4300000: polySurface1
+    7400000: idle
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/pelvis
+        weight: 1
+      - path: root/pelvis/hip_L
+        weight: 1
+      - path: root/pelvis/hip_L/leg_L
+        weight: 1
+      - path: root/pelvis/hip_L/leg_L/foot_L
+        weight: 1
+      - path: root/pelvis/hip_L/leg_L/foot_L/joint18
+        weight: 1
+      - path: root/pelvis/hip_R
+        weight: 1
+      - path: root/pelvis/hip_R/leg_R
+        weight: 1
+      - path: root/pelvis/hip_R/leg_R/foot_R
+        weight: 1
+      - path: root/pelvis/hip_R/leg_R/foot_R/joint14
+        weight: 1
+      - path: root/pelvis/spine1
+        weight: 1
+      - path: root/pelvis/spine1/spine2
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/fingers_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/fingers_L/fingers2_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/fingers_L/fingers2_L/joint33
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/thumb1_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_L/arm_L/hand_L/thumb1_L/thumb2_L/joint36
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R/fingers1_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R/fingers1_R/fingers2_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R/thumb1_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: root/pelvis/spine1/spine2/forearm_R/arm_R/hand_R/thumb1_R/thumb2_R/joint26
+        weight: 1
+      - path: root/pelvis/spine1/spine2/head
+        weight: 1
+      - path: root/pelvis/spine1/spine2/head/joint10
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

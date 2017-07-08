@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\Hierarchy-Visualizer\Assets\HierarchyVisualizer\BoneDrawer.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\Hierarchy-Visualizer\Assets\HierarchyVisualizer\HierarchyVisualizer.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\Hierarchy-Visualizer\Assets\HierarchyVisualizer\Editor\HierarchyVisualizerEditor.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\Hierarchy-Visualizer\Assets\pointcache\HierarchyVisualizer\Editor\HierarchyVisualizerEditor.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
